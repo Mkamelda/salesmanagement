@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(120deg, #f39c12, #d35400);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #2c3e50;
+}
+
+.form-group label {
+    color: #2c3e50;
+}
+
+.btn-primary {
+    background: #d35400;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #f39c12;
+}

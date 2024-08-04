@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #34495e;
+}
+
+.form-group label {
+    color: #34495e;
+}
+
+.btn-primary {
+    background: #8e44ad;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+body {
+    background: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.container .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.container .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
